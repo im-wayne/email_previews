@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<![endif]-->
+<title></title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<!--[if mso]>
+	<style type="text/css">
+    table {border-collapse:collapse;border-spacing:0;margin:0;}
+    div, td {padding:0;}
+    div {margin:0 !important;}
+	</style>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]--> 
+<!--[if gte mso 15]>
+      <style type="text/css" media="all">
+         /* Outlook 2013 Height Fix */
+		table, tr, td {
+		border-collapse: collapse;
+		border-spacing: 0; }
+      </style>
+      <![endif]-->
+<style type="text/css">
+/* http://meyerweb.com/eric/tools/css/reset/ 
+      v2.0 | 20110126
+      License: none (public domain)
+      */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+</style>
+<style type="text/css">
+/* CLIENT-SPECIFIC STYLES */
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/* Force IE to smoothly render resized images. */
+#outlook a {
+    padding: 0;
+}
+/* Remove spacing between tables in Outlook 2007 and up. */
+.ReadMsgBody {
+    width: 100%;
+}
+.ExternalClass {
+    width: 100%;
+}
+/* Force Outlook.com to display emails at full width. */
+p, a, td {
+    mso-line-height-rule: exactly;
+}
+/* Force Outlook to render line heights as they're originally set. */
+p, a, td, body, table {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font {
+    line-height: 100%;
+}
+#MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+/* Force Outlook.com to display line heights normally. */
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+span.MsoHyperlink {
+    mso-style-priority: 99;
+    color: inherit;
+}
+span.MsoHyperlinkFollowed {
+    mso-style-priority: 99;
+    color: inherit;
+}
+</style>
+<style type="text/css">
+@media screen and (max-width: 350px) {
+.three-col .column {
+    max-width: 100% !important;
+}
+}
+
+@media screen and (min-width: 351px) and (max-width: 460px) {
+.three-col .column {
+    max-width: 50% !important;
+}
+}
+
+@media screen and (max-width: 460px) {
+.two-col .column, .two-col img {
+    max-width: 100% !important;
+}
+.three-col1 .column, .three-col1 img {
+    max-width: 100% !important;
+}
+}
+
+@media screen and (min-width: 461px) {
+.three-col .column {
+    max-width: 33.3% !important;
+}
+.two-col .column {
+    max-width: 50% !important;
+}
+.sidebar .small {
+    max-width: 16% !important;
+}
+.sidebar .large {
+    max-width: 84% !important;
+}
+.sidebar1 .small {
+    max-width: 26% !important;
+}
+.sidebar2 .large {
+    max-width: 74% !important;
+}
+.sidebar2 .small {
+    max-width: 50% !important;
+}
+.sidebar1 .large {
+    max-width: 50% !important;
+}
+}
+</style>
+<style type="text/css">
+@media screen and (max-width: 600px) {
+.hide {
+    display: none!important;
+}
+#product1 {
+    display: block !important;
+    background-image: url(http://placehold.jp/333333/ffffff/420x565.png) !important;
+    background-size: 420px 565px !important;
+    width: 420px !important;
+    height: 565px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.full {
+    width: 100%!important;
+    max-width: 100% !important;
+}
+}
+</style>
+<style type="text/css">
+@media screen and (max-width: 320px) {
+.hide {
+    display: none!important;
+}
+#product1 {
+    display: block !important;
+    background-image: url(http://placehold.jp/333333/ffffff/320x430.png) !important;
+    background-size: 320px 430px !important;
+    width: 320px !important;
+    height: 430px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+}
+</style>
+
+<style type="text/css">
+@media screen {
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald ';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Oswald'), url(https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald ';
+  font-style: normal;
+  font-weight: light;
+  src: local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins ';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins'), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins ';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+}
+</style>
+
+
+<style type="text/css">
+@media (prefers-color-scheme: dark) {
+.dark-img {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+    float: none !important;
+    max-height: inherit !important;
+    max-width: inherit !important;
+    line-height: auto !important;
+    margin-top: 0px !important;
+    visibility: inherit !important;
+}
+.light-img {
+    display: none !important;
+}
+.link-arrow-lm {
+    display: none !important;
+}
+.link-arrow-dm {
+    display: inline !important;
+}
+.darkmode {
+    background-color: #161615 !important;
+}
+.darkmode-light-bg {
+    background-color: #f3f3f4 !important;
+}
+h1, h2, h3, h4 {
+    color: #1d4289 !important;
+}
+h3, h4 {
+    color: #c7102d !important;
+}
+h3, h4 {
+    color: #c7102d !important;
+}
+p {
+    color: #111a28 !important;
+}
+a {
+    color: #ffffff !important;
+}
+.light {
+    color: #ffffff !important;
+}
+.dark {
+    color: #111a28 !important;
+}
+.blue {
+    color: #1d4289 !important;
+}
+[data-ogsc] .dark-img {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+    float: none !important;
+    max-height: inherit !important;
+    max-width: inherit !important;
+    line-height: auto !important;
+    margin-top: 0px !important;
+    visibility: inherit !important;
+}
+[data-ogsc] .light-img {
+    display: none !important;
+}
+[data-ogsc] .link-arrow-lm {
+    display: none !important;
+}
+[data-ogsc] .link-arrow-dm {
+    display: inline !important;
+}
+[data-ogsc] .darkmode {
+    background-color: #161615 !important;
+}
+[data-ogsc] .darkmode-grey-bg {
+    background-color: #292826 !important;
+}
+[data-ogsc] h1, [data-ogsc] h2 {
+    color: #1d4289 !important;
+}
+[data-ogsc] h3, [data-ogsc] h4 {
+    color: #c7102d !important;
+}
+[data-ogsc] p {
+    color: #111a28 !important;
+}
+[data-ogsc] a {
+    color: #ffffff !important;
+}
+[data-ogsc] .light {
+    color: #ffffff !important;
+}
+[data-ogsc] .dark {
+    color: #111a28 !important;
+}
+[data-ogsc] .blue {
+    color: #1d4289 !important;
+}
+}
+</style>
+</head>
+<body style="margin:0; padding:0; word-spacing:normal; background-color: #0b1b2c;">
+<div role="article" aria-roledescription="email" lang="en" style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+  <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+    <tr>
+      <td align="center" width="600" valign="top" style="background-color: #0b1b2c;"><!--[if mso]>
+          <table role="presentation" align="center" style="width:600px;">
+          <tr>
+          <td align="center" style="background-color: #ffffff;" bgcolor="#ffffff">
+          <![endif]-->
+        
+        <div class="outer" style="width:100%; max-width:600px;">
+          <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#ffffff; width:100%; max-width:600px;">
+            <tr>
+              <td align="center" style="background-color: #ffffff;" bgcolor="#ffffff" class="darkmode">
+	              
+	              <!-- ///////////////////////////// MODULE: HEADER STARTS ///////////////////////////// -->
+                
+                <div class="two-col" style="text-align:center;font-size:0; padding: 15px 30px; background-color: #0b1b2c;"> 
+                  <!--[if mso]>
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+              <tr>
+              <td style="width:50%; vertical-align:middle; padding-left: 30px; background-color: #0b1b2c;" align="left">
+              <![endif]-->
+                  <div class="column" style="width:100%; max-width:300px; display:inline-block; vertical-align:middle;">
+                    <table class="full" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center"><a style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; font-weight: normal; color: #ffffff; text-decoration: none;" href="https://www.nba.com/watch/league-pass"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605b9a922b0749546d2806e3/original.png?1616616082" width="180" alt="" style="display:block;" /></a></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if mso]>
+              </td>
+              <td style="width:50%; text-align: right; padding-right: 30px; background-color: #0b1b2c;" align="right">
+              <![endif]-->
+                  <div class="column" style="width:100%; max-width:300px; display:inline-block; vertical-align:middle;">
+                    <div style="font-size:14px line-height:18px; text-align:right;" class="center">
+                      <table class="full" align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: none; border-collapse: collapse; border-spacing: 0; margin: auto; mso-table-lspace: 0; mso-table-rspace: 0;">
+                        <tbody>
+                          <tr>
+                            <td align="center" style="width:33%;"><a style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 20px; font-weight: bold; color: #ffffff; text-decoration: none;" href="https://www.nba.com/games">GAMES</a></td>
+                            <td align="center" style="width:33%; padding: 10px;"><a style=" font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 20px; font-weight: bold; color: #ffffff; text-decoration: none;" href="https://www.nba.com/news">NEWS</a></td>
+                            <td align="center" style="width:33%;"><a style=" font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 20px; font-weight: bold; color: #ffffff; text-decoration: none;" href="https://watch.nba.com/streaming-subscriptions?cid=nba:leaguepass:email:nav:evergreen:us">SIGN UP</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]--> 
+                </div>
+                
+                <!-- ///////////////////////////// MODULE: HEADER ENDS ///////////////////////////// --> 
+                
+                
+                <!-- ///////////////////////////// MODULE: BANNER STARTS ///////////////////////////// -->
+                
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td valign="top" height="300" bgcolor="#d5dee0" background="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d5cd82b074944fc1d4141/original.jpg?1616731352" style="background-image:url('https://appboy-images.com/appboy/communication/assets/image_assets/images/605d5cd82b074944fc1d4141/original.jpg?1616731352'); background-repeat:no-repeat; background-position:center; background-size: cover;"><!--[if true]>
+				<v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: inline-block; position: absolute; width: 600px; height: 300px; top: 0; left: 0; border: 0; z-index: 1;" src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d5cd82b074944fc1d4141/original.jpg?1616731352" />                             
+				<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 600px; height: 300px; top: 0; left: 0; border: 0; z-index: 2;">
+				<v:fill opacity="0%" style="z-index: 1;"/> 
+				<div>                       
+				<![endif]--> 
+                      
+                      <!--[if mso]>
+				<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="480">
+				<tr>
+				<td align="center">
+				<![endif]-->
+                      
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; max-width: 480px; width: 100%;">
+                        <tr>
+                          <td align="center" style="padding: 60px 30px 20px 30px;"><h2 style="color:#ffffff; font-family: 'Oswald', Impact, Verdana, sans-serif;  font-size: 60px; line-height: 65px; letter-spacing: -2px; font-weight: bold;" class="light">3 DAY <br/>FREE TRIAL</h2></td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding:0 30px 20px 30px;"><p style=" font-family: 'Poppins', Verdana, sans-serif;  font-size: 14px; line-height: 20px; font-weight: normal; color: #ffffff;" class="light">Start watching with NBA League Pass this weekend and get hooked on all the action, live and on-demand. </span><br><span style="font-weight: bold;">Don’t miss out, this limited time offer ends Sunday.</span></p></td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding: 0px 30px 60px 30px;"><p style="margin:0;font-family:Arial,sans-serif;"><a href="https://watch.nba.com/streaming-subscriptions?cid=nba:leaguepass:email:3daytrial:us" style=" border: 2px solid #ffffff; text-decoration: none; padding: 8px 25px; color: #ffffff; border-radius: 20px; display:inline-block; mso-padding-alt:0; text-underline-color:#ffffff; text-transform: uppercase; font-family: 'Poppins', Verdana, sans-serif; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center;"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]--><span style="mso-text-raise:10pt;font-weight:bold;">GET STARTED</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a></p></td>
+                        </tr>
+                      </table>
+                      
+                      <!--[if mso]>
+				</td>
+				</tr>
+				</table
+				<![endif]--> 
+                      
+                      <!--[if true]>   
+          		</div></v:fill></v:rect><![endif]--></td>
+                  </tr>
+                </table>
+                
+                <!-- ///////////////////////////// MODULE: BANNER ENDS ///////////////////////////// -->  
+                
+                <!-- ///////////////////////////// MODULE: BODY STARTTS ///////////////////////////// -->
+                
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: 100%;">
+                 
+                  <tr>
+                    <td style="padding:30px 30px 20px 30px;" align="center"><!--[if mso]>
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="400">
+              <tr>
+              <td align="center">
+              <![endif]-->
+                      
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; max-width: 400px; width: 100%;">
+                        <tr>
+                          <td align="center" style="padding-bottom: 0px;"><h2 style="color:#1d4289; font-family: 'Oswald', Impact, Verdana, sans-serif;  font-size: 30px; line-height: 35px; font-weight: bold;">CATCH THESE GAMES AND MORE</h2></td>
+                        </tr>
+                        
+                      </table>
+                      
+                      <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]--></td>
+                  </tr>
+                </table>
+                
+                <!-- ///////////////////////////// MODULE: BODY ENDS ///////////////////////////// --> 
+
+                <!-- ///////////////////////////// MODULE: TWO-COLUMN ARTICLE STARTS ///////////////////////////// -->
+                
+                <div class="two-col" style="font-size: 0; text-align: center; padding: 0 15px;"> 
+                  <!--[if mso]>
+              <table cellpadding="0" cellspacing="0"  width="100%">
+				<tr>
+					<td align="center" style="padding: 0 15px;">
+					  <table cellpadding="0" cellspacing="0"  role="presentation" width="100%">
+					  <tr>
+					  <td align="center" style="padding: 15px;" width="50%">
+					  <![endif]-->
+                  <div class="column" style="display: inline-block; max-width: 285px; vertical-align: middle; width: 100%;">
+                    <div style="text-align: center; padding: 15px;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border:1px #cccccc solid;">
+                        <tr>
+                          <td style="text-align:center;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58cedf331e6f77c2477f/original.png?1616730318" width="40" alt="Nets" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 2px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Brooklyn Nets</strong></p></td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ce078b9d6cb7c48f01/original.png?1616730318" width="40" alt="Pistons" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 2px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Detroit Pistons</strong></p></td>
+                              </tr>
+                            </table></td>
+                          <td style="padding:0 10px; text-align:center; vertical-align: middle;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td align="center" style="padding: 8px 10px 0;" nowrap><p style="color:#1d4289; font-family: 'Oswald', Impact, sans-serif;  font-size: 14px; line-height: 20px; font-weight: bold; text-transform: uppercase;"><strong>FRI 3/26<br>
+                                    7:00 PM ET</strong></p></td>
+                              </tr>
+                              
+                            </table></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <!--[if mso]>
+					</td>
+					<td align="center" style="padding: 15px;" width="50%">
+					<![endif]-->
+                  <div class="column" style="display: inline-block; max-width: 285px; vertical-align: middle; width: 100%;">
+                    <div style="text-align: center; padding: 15px;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border:1px #cccccc solid;">
+                        <tr>
+                          <td style="text-align:center;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ce831db83c8f36667a/original.png?1616730318" width="40" alt="Nuggets" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Denver Nuggets</strong></p></td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ce6399945f65eb7c4d/original.png?1616730318" width="40" alt="Pelicans" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>New Orleans Pelicans</strong></p></td>
+                              </tr>
+                            </table></td>
+                          <td style="padding:0 10px; text-align:center; vertical-align: middle;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td align="center" style="padding: 8px 10px 0;" nowrap><p style="color:#1d4289; font-family: 'Oswald', Impact, sans-serif;  font-size: 14px; line-height: 20px; font-weight: bold; text-transform: uppercase;"><strong>FRI 3/26<br>
+                                    8:00 PM ET</strong></p></td>
+                              </tr>
+                              
+                            </table></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <!--[if mso]>
+					  </td>
+					  </tr>
+					  </table>
+              		</td>
+				</tr>
+				</table>
+              <![endif]--> 
+                </div>
+                
+                <!-- ///////////////////////////// MODULE: TWO-COLUMN ARTICLE ENDS ///////////////////////////// -->            
+
+				<!-- ///////////////////////////// MODULE: TWO-COLUMN ARTICLE STARTS ///////////////////////////// -->
+                
+                <div class="two-col" style="font-size: 0; text-align: center; padding: 0 15px;"> 
+                  <!--[if mso]>
+              <table cellpadding="0" cellspacing="0"  width="100%">
+				<tr>
+					<td align="center" style="padding: 0 15px;">
+					  <table cellpadding="0" cellspacing="0"  role="presentation" width="100%">
+					  <tr>
+					  <td align="center" style="padding: 15px;" width="50%">
+					  <![endif]-->
+                  <div class="column" style="display: inline-block; max-width: 285px; vertical-align: middle; width: 100%;">
+                    <div style="text-align: center; padding: 15px;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border:1px #cccccc solid;">
+                        <tr>
+                          <td style="text-align:center;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58cebde9107d8b7a12af/original.png?1616730318" width="40" alt="Knicks" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>New York Knicks</strong></p></td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ce5ff90835d1769e6e/original.png?1616730318" width="40" alt="Bucks" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Milwaukee Bucks</strong></p></td>
+                              </tr>
+                            </table></td>
+                          <td style="padding:0 10px; text-align:center; vertical-align: middle;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td align="center" style="padding: 8px 10px 0;" nowrap><p style="color:#1d4289; font-family: 'Oswald', Impact, sans-serif;  font-size: 14px; line-height: 20px; font-weight: bold; text-transform: uppercase;"><strong>SAT 3/27<br>
+                                    8:00 PM ET</strong></p></td>
+                              </tr>
+                              
+                            </table></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <!--[if mso]>
+					</td>
+					<td align="center" style="padding: 15px;" width="50%">
+					<![endif]-->
+                  <div class="column" style="display: inline-block; max-width: 285px; vertical-align: middle; width: 100%;">
+                    <div style="text-align: center; padding: 15px;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border:1px #cccccc solid;">
+                        <tr>
+                          <td style="text-align:center;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ce9d7fd5153e24882f/original.png?1616730318" width="40" alt="Suns" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Phoenix Suns</strong></p></td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px;" width="40px"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d58ced602105f5b931869/original.png?1616730318" width="40" alt="Hornets" style="display:block;" /></td>
+                                <td align="left" valign="middle" style="padding-left: 10px; vertical-align: middle;"><p style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; line-height: 16px; color: #111a28;" class="light"><strong>Charlotte Hornets</strong></p></td>
+                              </tr>
+                            </table></td>
+                          <td style="padding:0 10px; text-align:center; vertical-align: middle;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                              <tr>
+                                <td align="center" style="padding: 8px 10px 0;" nowrap><p style="color:#1d4289; font-family: 'Oswald', Impact, sans-serif;  font-size: 14px; line-height: 20px; font-weight: bold; text-transform: uppercase;"><strong>SUN 3/28<br>
+                                    1:00 PM ET</strong></p></td>
+                              </tr>
+                              
+                            </table></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <!--[if mso]>
+					  </td>
+					  </tr>
+					  </table>
+              		</td>
+				</tr>
+				</table>
+              <![endif]--> 
+                </div>
+                
+                <!-- ///////////////////////////// MODULE: TWO-COLUMN ARTICLE ENDS ///////////////////////////// -->
+                
+                               
+                <!-- ///////////////////////////// MODULE: BODY STARTTS ///////////////////////////// -->
+                
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: 100%;">
+                  
+                  <tr>
+                    <td style="padding:20px 30px 0px 30px;" align="center"><!--[if mso]>
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="400">
+              <tr>
+              <td align="center">
+              <![endif]-->
+                      
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; max-width: 400px; width: 100%;">
+                        
+                        <tr>
+                          <td align="center" style="padding-bottom: 20px;"><p style="margin:0;font-family:Arial,sans-serif;"><a href="http://www.nba.com/games?cid=nba:leaguepass:email:3dayfreetrial:us:games" style=" border: 0px solid #ffffff; text-decoration: none; padding: 8px 25px; color: #ffffff; border-radius: 20px; display:inline-block; mso-padding-alt:0; text-underline-color:#ffffff; text-transform: uppercase; font-family: 'Poppins', Verdana, sans-serif; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center; background-color:#c7102d" bgcolor="#c7102d"><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:20pt">&nbsp;</i><![endif]--><span style="mso-text-raise:10pt;font-weight:bold;">SEE SCHEDULE</span><!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]--></a></p></td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding-bottom: 5px;"><p style=" font-family: 'Poppins', Verdana, sans-serif;  font-size: 9px; line-height: 10px; font-weight: normal; color: #111a28;" class="light">*Local blackout restrictions apply </p></td>
+                        </tr>
+                      </table>
+                      
+                      <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]--></td>
+                  </tr>
+                </table>
+                
+                <!-- ///////////////////////////// MODULE: BODY ENDS ///////////////////////////// -->
+                
+                <!-- ///////////////////////////// MODULE: ONE-COLUMN IMAGE STARTS ///////////////////////////// -->
+                
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td align="center" style="padding:30px;"><a href="https://app.link.nba.com/Sef0TUDnQeb"><img alt="DEN VS NOP" border="0" src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605d5cd8f5d1673f65d052b4/original.jpg?1616731352" style="border: 0; display: block; font-family: 'Poppins', Verdana, sans-serif; font-size: 14px; height: auto; max-width: 540px; outline: 0; padding: 0; width: 100%; display: block;" width="540" /></a></td>
+                  </tr>
+                </table>
+                
+                <!-- ///////////////////////////// MODULE: ONE-COLUMN IMAG ENDS ///////////////////////////// -->  
+                
+                <!-- ///////////////////////////// MODULE: FOOTER STARTS ///////////////////////////// -->
+                
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: 100%;">
+                  <tr>
+                    <td align="center" style="padding: 30px; background-color: #0b1b2c;"><!--[if true]>
+<table width="400" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+<tr>
+<td align="center">
+<![endif]-->
+                      
+                      <table class="full" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td align="center" style="padding:20px 0;"><a style="font-family: 'Poppins', Verdana, sans-serif;  font-size: 12px; font-weight: normal; color: #ffffff; text-decoration: none;" href="https://www.nba.com/watch/league-pass"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605b9a922b0749546d2806e3/original.png?1616616082" width="180" alt="" style="display:block;" /></a></td>
+                        </tr>
+                      </table>
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation" style="border-collapse: collapse; padding: 0; margin: 0; max-width:400px;">
+                        <tr>
+                          <td align="center" style="padding:20px 0;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; max-width: 400px; width: 100%;">
+                              <tbody>
+                                <tr>
+                                  <td align="center"><a target="_blank" href="https://www.twitch.tv/nba"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d078b9d6226476e36/original.png?1616683933" width="30" alt="Twitch" style="display: block;"></a></td>
+                                  <td align="center"><a target="_blank" href="https://youtube.com/user/NBA"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d078b9d5c9c477700/original.png?1616683933" width="30" alt="YouTube" style="display: block;"></a></td>
+                                  <td align="center"><a target="_blank" href="https://instagram.com/nba/"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d9d7fd547a02aeb5f/original.png?1616683933" width="30" alt="Instagram" style="display: block;"></a></td>
+                                  <td align="center"><a target="_blank" href="https://facebook.com/nba"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d12126e01fa8c48ce/original.png?1616683933" width="30" alt="Facebook" style="display: block;"></a></td>
+                                  <td align="center"><a target="_blank" href="https://twitter.com/NBA"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d4050d02c3b93c5ca/original.png?1616683933" width="30" alt="Twitter" style="display: block;"></a></td>
+                                  <td align="center"><a target="_blank" href="https://vm.tiktok.com/ZMJaHYoEC"><img src="https://appboy-images.com/appboy/communication/assets/image_assets/images/605ca39d831db80b7f56796d/original.png?1616683933" width="30" alt="TikTok" style="display: block;"></a></td>
+                                </tr>
+                              </tbody>
+                            </table></td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="padding:20px 0;"><p style="font-family: 'Poppins', Verdana, sans-serif; font-size:10px; line-height:16px; color:#ffffff;" class="light">This email was sent to <span style="color:#ffffff;text-decoration: none;">{{${email_address}}}</span>. Click <a href="{{${preference_center_url}}}" style="color: #ffffff; text-decoration: none;">here</a> to unsubscribe.<br>
+                              <br>
+                              National Basketball Association, 645 Fifth Avenue, New York, NY 10022<br>
+                              <br>
+                              <a href="https://www.nba.com/news/privacy_policy.html" style="color: #ffffff; text-decoration: none;">Privacy Policy</a>&nbsp;&nbsp; &nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://www.nba.com/news/termsofuse" style="color: #ffffff; text-decoration: none;">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.nba.com" style="color: #ffffff; text-decoration: none;">NBA.com</a><br>
+                              <br>
+                              The NBA identifications are the intellectual propery of NBA Properties, Inc. and the respective NBA member teams.<br>
+                              © 2021 NBA PROPERTIES, INC. ALL RIGHTS RESERVED.</p></td>
+                        </tr>
+                      </table>
+                      
+                      <!--[if true]>
+						</td>
+						</tr>
+						</table>
+						<![endif]--></td>
+                  </tr>
+                </table>
+                
+                <!-- ///////////////////////////// MODULE: FOOTER ENDS ///////////////////////////// --></td>
+            </tr>
+          </table>
+        </div>
+        
+        <!--[if mso]>
+          </td>
+          </tr>
+          </table>
+          <![endif]--></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
